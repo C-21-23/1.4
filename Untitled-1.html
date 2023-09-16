@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>table</title>
+<style>
+th,td{
+  border: 1px solid rgb(223, 8, 8);
+  text-align:center;
+  width: 100px;
+  height: 20px;
+} 
+th,td{ border: 1px solid grey;}
+.empt {
+border: 1px; }
+
+</style>
+</head>
+<body>
+<h1 align="center"> Table </h1>
+<table align="center">
+<tr>
+  <td class="empt"> </td>
+  <td rowspan="4">
+    <ul>
+        <li>один</li>
+        <li>два</li>
+        <li>три</li>
+        <li>чотири</li>
+    </ul>
+  </td>
+  <td rowspan="4"></td>
+  <td rowspan="3"></td>
+  <td rowspan="3" class="empt"></td>
+ </tr> 
+ <tr>
+    <td colspan="5" class="empt"> </td>
+ </tr>
+ <tr>
+    <td colspan="5" class="empt"> </td>
+ </tr>
+
+ <tr>
+    <td colspan="3" class="empt"> </td>
+    <td colspan="2"></td>
+ </tr>
+ <tr>
+    <td class="empt"> </td>
+    <td rowspan="2"></td>
+    <td colspan="2"></td>
+    <td></td>
+ </tr>
+ <tr>
+    <td class="empt"> </td>
+    <td colspan="3">
+    </td> 
+ </tr>
+<tr>
+    <td class="empt"> </td>
+    <td></td>
+    <td colspan="2" rowspan="3">
+        <ol>
+            <li>один</li>
+            <li>два</li>
+            <li>три</li>
+        </ol>
+    </td>
+</tr>
+<tr>
+    <td rowspan="2"></td>
+    <td rowspan="2"></td>
+    <td class="empt"></td>
+</tr>
+<tr>
+    <td class="empt"></td>
+</tr>
+</table> 
+ </body>
+</html>
